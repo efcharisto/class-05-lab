@@ -11,10 +11,9 @@ Test this function by hand in the console to get it working, and when you think
 it is finished, uncomment the call for the testSum() function below and check
 the console to see if the test passes.*/
 
-function sum(x, y) {
-//  var answer = (x + y) ;
-  var myArr = ['The sum of ', x, ' and ',' is ', (x+y) ];
-  return myArr();
+function sum (x, y) {
+  var myArr = [x,y];
+  return myArr;
 }
 sum(4,7);
 
