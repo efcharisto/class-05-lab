@@ -40,7 +40,13 @@ Test this function by hand in the console to get it working, and when you think
 it is finished, uncomment the call for the testMultiply() function and see if
 the test passes.*/
 
-// Write your code here
+function multiply (x, y) {
+  var myArr = [];
+  myArr.push(x*y);
+  myArr.push('The product of ' + x + ' and ' + y + ' is ' + (x*y) + '.');
+  return myArr;
+}
+multiply(4,7);
 
 // Here is the test for multiply(); uncomment it to run it
 testMultiply(4,7);
