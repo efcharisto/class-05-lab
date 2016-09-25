@@ -12,7 +12,7 @@ it is finished, uncomment the call for the testSum() function below and check
 the console to see if the test passes.*/
 
 function sum (x, y) {
-  var myArr = [x,y];
+  var myArr = [];
   myArr.push('The sum of ' + x + ' and ' + y + ' is ' + (x+y) + '.');
   return myArr;
 }
