@@ -108,6 +108,7 @@ function sumArray(testArray) {
   myArr.push(sumArr, stringArr);
   return myArr;
 }
+
 testArray = [2, 3, 4];
 // Here is the test for sumArray(); uncomment it to run it
 testSumArray(testArray);
