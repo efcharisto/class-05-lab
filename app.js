@@ -19,7 +19,6 @@ function sum (x, y) {
 }
 sum(4,7);
 
-
 // Here is the test for sum(); uncomment it to run it
 testSum(4, 7);
 
