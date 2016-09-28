@@ -104,7 +104,7 @@ function sumArray(testArray) {
   var myArr = [];
   var sumArr = (testArray[0] + testArray[1] + testArray[2]);
   var stringArr = (testArray + ' was passed in as an array of numbers, and ' +
-  sumArr + ' is their sum.');
+    sumArr + ' is their sum.');
   myArr.push(sumArr, stringArr);
   return myArr;
 }
@@ -133,7 +133,8 @@ if the test passes.*/
 function multiplyArray(testArray) {
   var myArr = [];
   var productArr = (testArray[0] * testArray[1] * testArray[2]);
-  var stringArr = ('The numbers ' + testArray + ' have a product of ' + productArr + '.');
+  var stringArr = ('The numbers ' + testArray + ' have a product of ' +
+    productArr + '.');
   myArr.push(productArr, stringArr);
   return myArr;
 }
