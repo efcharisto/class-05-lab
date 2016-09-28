@@ -70,7 +70,12 @@ Test this function by hand in the console to get it working, and when you think
 it is finished, uncomment the call for the testMultiply() function and see if
 the test passes.*/
 
-// Write your code here
+function sumAndMultiply(x,y,z){
+  var myArr = [];
+  myArr.push(x+y+z);
+  myArr.push(x*y*z);
+  myArr.push(x+' and ' +y+ ' and ' +z + ' sum to '+ (x*y*z));
+}
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
 testSumAndMultiply(4,7,5);
