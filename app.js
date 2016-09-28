@@ -130,7 +130,9 @@ Test this function by hand in the console to get it working, and when you think
 it is finished, uncomment the call for the testMultiplyArray() function and see
 if the test passes.*/
 
-// Write your code here
+function multiplyArray() {
+  
+}
 
 // Here is the test for multiplyArray(); uncomment it to run it
 testMultiplyArray(testArray);
