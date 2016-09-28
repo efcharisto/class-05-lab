@@ -70,13 +70,13 @@ Test this function by hand in the console to get it working, and when you think
 it is finished, uncomment the call for the testMultiply() function and see if
 the test passes.*/
 
-function sumAndMultiply(x,y,z){
+function sumAndMultiply(x, y, z) {
   var myArr = [];
   var sumArr = (x + y + z);
   var productArr = (x * y * z);
-  myArr.push(sumArr, productArr);
-  myArr.push(x + ' and ' + y + ' and ' + z + ' sum to ' + sumArr + '.');
-  myArr.push('The product of ' + x + ' and ' + y + ' and ' + z + ' is ' + productArr + '.');
+  var stringOne = (x + ' and ' + y + ' and ' + z + ' sum to ' + sumArr + '.');
+  var stringTwo = ('The product of ' + x + ' and ' + y + ' and ' + z + ' is ' + productArr + '.');
+  myArr.push(sumArr, productArr, stringOne, stringTwo);
   return myArr;
 }
 
