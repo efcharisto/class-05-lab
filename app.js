@@ -100,9 +100,6 @@ Test this function by hand in the console to get it working, and when you think
 it is finished, uncomment the call for the testSumArray() function and see if
 the test passes.*/
 
-function sumArray(){
-
-}
 testArray = [2,3,4];
 
 // Here is the test for sumArray(); uncomment it to run it
