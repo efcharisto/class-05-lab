@@ -100,11 +100,22 @@ Test this function by hand in the console to get it working, and when you think
 it is finished, uncomment the call for the testSumArray() function and see if
 the test passes.*/
 
+
 function sumArray(){
 
 }
 testArray = [2,3,4];
 
+=======
+function sumArray(testArray) {
+  var myArr = [];
+  var sumArr = (testArray[0] + testArray[1] + testArray[2]);
+  var stringArr = (testArray + ' was passed in as an array of numbers, and ' +
+    sumArr + ' is their sum.');
+  myArr.push(sumArr, stringArr);
+  return myArr;
+}
+testArray = [2, 3, 4];
 // Here is the test for sumArray(); uncomment it to run it
 testSumArray(testArray);
 
