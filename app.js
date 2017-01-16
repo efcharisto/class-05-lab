@@ -195,3 +195,4 @@ function testMultiplyArray() {
     console.log('%c TEST FOR multiplyArray() FAILS', 'color: red');
   }
 }
+//
